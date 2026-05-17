@@ -169,7 +169,7 @@ button,
 }
 
 .hero-background {
-  background-image: url('pillah/IMG-20260514-WA0092.jpg');
+  background-image: url('IMG-20260514-WA0092.jpg');
   background-size: cover;
   background-position: 50% 24%;
   filter: brightness(0.55);
@@ -375,7 +375,7 @@ h1 {
 }
 
 .gallery-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .gallery-item {
